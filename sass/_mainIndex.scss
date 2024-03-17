@@ -1,0 +1,18 @@
+.indexMainImg{
+    height: $alto-total;
+}
+.divIndex{
+    height: $alto-total;
+        .imgNoticiasIndex{
+            height: 280px;
+        }
+}    
+.indexEventos{
+    @include colorFondo ($color-fondo);
+    margin-top: 35px;
+}
+.imgEstudiantesIndex{ 
+    width: $ancho-total;
+    height: $alto-total;
+}
+        
