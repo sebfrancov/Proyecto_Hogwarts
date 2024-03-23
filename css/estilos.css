@@ -24,9 +24,30 @@ main {
 
 .divIndex {
   height: 50vh;
+  position: relative;
+  overflow: hidden;
 }
-.divIndex .imgNoticiasIndex {
-  height: 280px;
+
+.divIndex img {
+  transition: transform 1s ease-in-out;
+}
+
+.divIndex .texto {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divIndex:hover img {
+  transform: scale(1.5);
+  filter: grayscale(100%);
+}
+
+.divIndex:hover .texto {
+  opacity: 1;
+  color: white;
 }
 
 .indexEventos {
@@ -72,3 +93,5 @@ main {
 footer {
   background-color: rgba(145, 145, 145, 0.316);
 }
+
+/*# sourceMappingURL=estilos.css.map */
