@@ -27,6 +27,11 @@
 .indexEventos{
     @include colorFondo ($color-fondo);
     margin-top: 35px;
+    transition: transform 0.5s ease-in-out;
+}
+.indexEventos:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.121);
 }
 .imgEstudiantesIndex{ 
     width: $ancho-total;

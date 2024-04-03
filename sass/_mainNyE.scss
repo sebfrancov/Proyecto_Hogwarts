@@ -1,7 +1,16 @@
+.secNoticias:hover{
+    @include colorFondo ($color-fondo);
+    transition: background-color 0.5s ease-in-out;
+}
 .imgNoticias{
     height: $alto-total;
 }
 .imgEventos{
         height: map-get($altos, alto-75);
 }
-
+@media (max-width: 600px){
+    .imgEventos{
+      max-width: 300px;
+      height: map-get($altos, alto-40);
+    }
+  }
