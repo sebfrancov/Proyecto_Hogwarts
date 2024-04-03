@@ -5,3 +5,10 @@ header{
     max-width: 125px;
     max-height: 125px;
 }
+.nav-item{
+    border-radius: 5px;
+}
+.nav-item:hover{
+    @include colorFondo ($color-fondo);
+    transition: background-color 0.2s ease-in-out;
+}

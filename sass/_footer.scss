@@ -1,3 +1,24 @@
 footer{
-    @include colorFondo ($color-fondo)
-}  
+    height: map-get($altos, alto-30);
+    background-color: rgba(128, 128, 128, 0.486);
+    width: 100%;
+    .secFooter{  
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+          }
+        .fa-brands{
+            color: black;
+            font-size: 1.5rem;
+            margin: 10px;
+            margin-top: 70px;
+        }
+        .derReservados{
+            font-size: 1rem;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+    }
+   
+  

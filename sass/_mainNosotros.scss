@@ -1,4 +1,8 @@
 .imgNosotros{
-    width: 25%;
+    height: 40vh;
 }
-
+.divNosotros:hover{
+    transform: scale(1.02);
+    transition: transform 1s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.121);
+}
